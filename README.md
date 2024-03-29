@@ -124,10 +124,10 @@ usage: smartbugs [-c FILE] [-t TOOL [TOOL ...]] [-f PATTERN [PATTERN ...]] [--ma
 ```
 For details, see [SmartBugs' wiki](https://github.com/smartbugs/smartbugs/wiki/The-command-line-interface).
 
-**Example:** To analyse the Solidity files in the `samples` directory with Mythril, use the command
+**Example:** To analyse the Solidity files in the `samples` directory with our jobs, use the command
 
 ```console
-./smartbugs -t mythril -f samples/*.sol --processes 2 --mem-limit 4g --timeout 600
+./smartbugs -t HACR -f samples/*.sol --processes 2 --mem-limit 4g --timeout 600
 ```
 
 The options tell SmartBugs to run two processes in parallel, with a memory limit of 4GB and max. 10 minutes computation time per task.
