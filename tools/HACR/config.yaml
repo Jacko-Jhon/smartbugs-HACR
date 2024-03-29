@@ -1,0 +1,15 @@
+alias:
+    - confuzzius
+    - conkas
+    - honeybadger
+    - maian
+    - manticore-0.3.7
+    - mythril-0.24.7
+    - osiris
+    - oyente
+    - securify
+    - semgrep
+    - sfuzz
+    - slither
+    - smartcheck
+    - solhint-3.3.8
